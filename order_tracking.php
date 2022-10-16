@@ -26,14 +26,14 @@ echo "<br>";
 // $tracking_id = "CM114256848IN"; // the old tracking id 
 // $tracking_id = "10483710001724";  // the new tracking id
 // $tracking_id = "10483710001746";  // the new tracking id
-$tracking_id = "10483710001724";  // the new tracking id
+$tracking_id = "10483710001724";  // the new tracking id  //here the tracking id have to write perfectly.
 
 
 $courier =  strlen($tracking_id);
 
 if($courier == 13){
     
-echo 'india post'; //here the tracking id have to write perfectly.
+echo 'india post'; 
   
 }else{
 echo '
@@ -51,6 +51,8 @@ if($courier == 13){
 
 
 if($co == 100060){
+
+  // on the $tracking_id the id no have to write perfectly otherwise the code will not run perfectly
 
 $json = file_get_contents('https://track.delhivery.com/api/v1/packages/json/?waybill='.$tracking_id.'&token=9621e04dd8399c08d7bb807b42a66603c2a51b97');
 
@@ -251,7 +253,9 @@ foreach ($items as $item) {
     // Loop through $item['origin_info']['trackinfo']
     foreach ($item['track']['z1'] as $step) {
         echo '<tr>';
+        
 
+        // this if code will be run if the tracking id no is bigger than 13 characters
         if($courier >13){
           // 'id' is an element of $item
         echo '<td scope="row" data-label="Tracking ID">' . $item['number'] . '</td>';
@@ -271,6 +275,7 @@ foreach ($items as $item) {
         // 'substatus' is an element of $step
         echo '<td scope="row" data-label="Current City">' . $dsubs.  '</td>';
         }
+        // this else code will run when the tracking number is equal to 13 character or other size character
         else{
           // 'id' is an element of $item
         echo '<td scope="row" data-label="Tracking ID">' . $item['number'] . '</td>';

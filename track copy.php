@@ -23,21 +23,18 @@
 
 <?php
 echo "<br>";
-// $tracking_id = "CM114256848IN"; // the old tracking id 
-// $tracking_id = "10483710001724";  // the new tracking id
-// $tracking_id = "10483710001746";  // the new tracking id
-$tracking_id = "10483710001724";  // the new tracking id
+$tracking_id = "CM114256848IN";
 
 
 $courier =  strlen($tracking_id);
 
 if($courier == 13){
     
-echo 'india post'; //here the tracking id have to write perfectly.
+echo 'india post';
   
 }else{
 echo '
-Delivery';
+delhivery';
 }
 
 
@@ -63,8 +60,6 @@ $dsubs = $arr['ShipmentData'][0]['Shipment']['Status']['Instructions'];
 $dre = $arr['ShipmentData'][0]['Shipment']['Status']['RecievedBy'];
 
 $dupdate = date('d-M-Y h:i', strtotime($ddt));
-
-// echo "this".$dloc;
 
 
 $expectedd = $arr['ShipmentData'][0]['Shipment']['ExpectedDeliveryDate'];
@@ -118,9 +113,6 @@ echo '
 }
 
 }
-// else{
-//   echo 'sorry there is a problem';
-// }
 
 
 
@@ -160,16 +152,7 @@ $last_sta = $arr['data']['accepted']['0']['track']['z0']['d'];
 $last_sta1 = $arr['data']['accepted']['0']['track']['z0']['c'];
 $last_sub = $arr['data']['accepted']['0']['track']['z0']['z'];
 
-$current_stage = " $last_date → $last_sta $last_sta1 → $last_sub"; // 
-
-// echo $cstt;
-
-// echo 'here is the '; /*'.$last_sub.' = is current city */  
-
-// echo "this is .$last_sta.";
-// '.$accepted.' = is arry
-// .$last_date.''.$last_sta.''
-// .$accepted.''.$cstt.'
+$current_stage = " $last_date → $last_sta $last_sta1 → $last_sub ";
 
 //echo $cstt;
 
@@ -252,47 +235,23 @@ foreach ($items as $item) {
     foreach ($item['track']['z1'] as $step) {
         echo '<tr>';
 
-        if($courier >13){
-          // 'id' is an element of $item
+        // 'id' is an element of $item
         echo '<td scope="row" data-label="Tracking ID">' . $item['number'] . '</td>';
 
         // 'tracking_number' is an element of $item
-        // echo '<td>' . $item['tracking_number'] . '</td>';
+        //echo '<td>' . $item['tracking_number'] . '</td>';
 
         // 'Details' is an element of $step
         echo '<td scope="row" data-label="Updated on">' . date('d-M-Y | h:i', strtotime($step['a'])) . '</td>';
 
         // 'checkpoint_status' is an element of $step
-        // echo '<td>' . $step['c'] . '</td>';
+        //echo '<td>' . $step['c'] . '</td>';
 
         // 'substatus' is an element of $step
+        echo '<td scope="row" data-label="Current City">' . $step['d'] . '' . $step['c'] . '</td>';
+
+         // 'substatus' is an element of $step
         echo '<td scope="row" data-label="Sub-Status">' . $step['z'] . '</td>';
-        
-        // 'substatus' is an element of $step
-        echo '<td scope="row" data-label="Current City">' . $dsubs.  '</td>';
-        }
-        else{
-          // 'id' is an element of $item
-        echo '<td scope="row" data-label="Tracking ID">' . $item['number'] . '</td>';
-
-        // 'tracking_number' is an element of $item
-        // echo '<td>' . $item['tracking_number'] . '</td>';
-
-        // 'Details' is an element of $step
-        echo '<td scope="row" data-label="Updated on">' . date('d-M-Y | h:i', strtotime($step['a'])) . '</td>';
-
-        // 'checkpoint_status' is an element of $step
-        // echo '<td>' . $step['c'] . '</td>';
-
-        // 'substatus' is an element of $step
-        echo '<td scope="row" data-label="Current City">' . $step['d'] . '' . $step['c'] .  '</td>';
-        
-        // 'substatus' is an element of $step
-        echo '<td scope="row" data-label="Sub-Status">' . $step['z'] . '</td>';
-        // echo '<td scope="row" data-label="Current City">' . $dsubs.  '</td>';
-        }
-        
-         
 
     }
 
