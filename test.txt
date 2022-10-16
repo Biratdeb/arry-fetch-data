@@ -1,0 +1,4 @@
+<th scope="col">Tracking Id</th>
+      <th scope="col">Current City</th>
+      <th scope="col">Latest Update</th>
+      <th scope="col">Last Update Time</th>
