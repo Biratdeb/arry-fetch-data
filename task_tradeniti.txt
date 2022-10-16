@@ -1,0 +1,61 @@
+Hello lipi ma'am,
+
+for your refrence i am sharing some data so you can understand and implement the expected result.
+
+1. Here is an example of how i get data from the delhivery api. Eg. pin code search.
+
+https://track.delhivery.com/c/api/pin-codes/json/?token=9621e04dd8399c08d7bb807b42a66603c2a51b97&filter_codes=411001
+
+i can convert the json data received by the link above and can loop into the the array received. i can show the data in the html table as 
+
+Pin | City name (cn) | COD (cod) | Pickup | District 
+
+==========================
+
+What i am expecting you to do ?
+
+========================
+
+1. Show tracking data in a table using loop / for each loop etc in php.
+
+
+Here is the link to receive the json data from the server.
+
+https://track.delhivery.com/api/v1/packages/json/?waybill=10483710001724&token=9621e04dd8399c08d7bb807b42a66603c2a51b97
+
+// PHP code to convert from json to an array.
+$arr = json_decode($json, true);
+
+i want all the tracking information in a html table. Eg.
+
+TRACKING ID | Scan| StatusDateTime | ScannedLocation | Instructions
+
+********* | In Transit | 2022-10-10T13:37:17 | Pune_Kondhwa_C (Maharashtra) | Shipment picked up 
+
+********* | In Transit | 2022-10-14T14:06:04.792000 | Raipur_Guma_H (Chhattisgarh) | Vehicle Arrived 
+
+AND SO ON - ALL THE ARRAY DATA WILL GO HERE.
+
+
+========================
+2. GET / RECEIVE TRACKING UPDATES VIA WEB PUSH / WEBHOOK ON A PHP ON SERVER / WEBHOOK.SITE
+========================
+
+JUST LIKE ANY SHIPMENT TRACKING WEBSITE DELHIVERY ALSO SHARE SCAN / SHIPMENT UPDATES BY PUSHING THE DATA TO THE SELLER. TO ACHIVE THIS YOU NEED FEW TRACKING ID'S. HERE ARE 6 TRACKING IDS.
+
+10483710001772
+10483710001761
+10483710001750
+10483710001746
+10483710001735
+10483710001724
+
+I have an acount at 17track.net and i am going to attach the files so you can get the idea how i receive the data and print that data on the html table. this will help you.
+
+Here is the online copy - https://www.tradeniti.in/plugins/lipi_ji/track.php
+The php is zipped at -  https://www.tradeniti.in/plugins/lipi_ji/track.zip
+
+please feel free if you have any doubt.
+
+Thank you.
+Ram Ram.
