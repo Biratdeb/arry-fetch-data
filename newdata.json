@@ -1,0 +1,33 @@
+{
+    "UserData": [
+
+    {
+        "id": "name",
+        "fname": "Joey",
+        "lname": "Tulang",
+        "age": "29",
+        "gender": "Male",
+        "skills": [ "HTML", "CSS", "JavaScript" ],
+        "image": [ "html.jpg", "css.jpg", "js.jpg" ]
+    },
+    {
+        "id": "2",
+        "fname": "Angelica",
+        "lname": "Balce",
+        "age": "20",
+        "gender": "Female",
+        "skills": [ "C++", "Python", "PHP"],
+        "image": [ "c++.jpg", "python.jpg", "php.jpg" ]
+    },
+    {
+        "id": "3",
+        "fname": "Mj",
+        "lname": "King",
+        "age": "21",
+        "gender": "male",
+        "skills": [ "Photoshop", "Figma", "Corel Draw"],
+        "image": [ "photoshop.jpg", "figma.jpg", "cdraw.jpg" ]
+    }       
+
+    ]   
+}

@@ -1,0 +1,294 @@
+[
+    {
+    "ShipmentData": [
+        {
+            "Shipment": {
+                "PickUpDate": "2022-10-10T13:37:17",
+                "Destination": "Sarbhoka",
+                "DestRecieveDate": null,
+                "Scans": [
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-09T21:46:05.361000",
+                            "ScanType": "UD",
+                            "Scan": "Manifested",
+                            "StatusDateTime": "2022-10-09T21:46:05.361000",
+                            "ScannedLocation": "Pune_Kondhwa_C (Maharashtra)",
+                            "Instructions": "Shipment details manifested",
+                            "StatusCode": "X-UCI"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-09T21:47:23",
+                            "ScanType": "UD",
+                            "Scan": "Manifested",
+                            "StatusDateTime": "2022-10-09T21:47:23",
+                            "ScannedLocation": "Pune_Kondhwa_C (Maharashtra)",
+                            "Instructions": "Pickup scheduled",
+                            "StatusCode": "FMPUR-101"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-10T13:37:17",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-10T13:37:17",
+                            "ScannedLocation": "Pune_Kondhwa_C (Maharashtra)",
+                            "Instructions": "Shipment picked up",
+                            "StatusCode": "X-PPOM"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-10T21:56:59.114000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-10T21:56:59.114000",
+                            "ScannedLocation": "Pune_Kondhwa_C (Maharashtra)",
+                            "Instructions": "Shipment Recieved at Origin Center",
+                            "StatusCode": "X-PIOM"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-10T22:01:47.157000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-10T22:01:47.157000",
+                            "ScannedLocation": "Pune_Kondhwa_C (Maharashtra)",
+                            "Instructions": "Added to Bag",
+                            "StatusCode": "X-DBL1F"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-10T22:19:04.825000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-10T22:19:04.825000",
+                            "ScannedLocation": "Pune_Kondhwa_C (Maharashtra)",
+                            "Instructions": "Connected to destination",
+                            "StatusCode": "X-DLL2F"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-11T00:47:25.360000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-11T00:47:25.360000",
+                            "ScannedLocation": "Pune_Sudhwadi_GW (Maharashtra)",
+                            "Instructions": "Vehicle Arrived",
+                            "StatusCode": "X-ILL2F"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-11T03:02:52.702000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-11T03:02:52.702000",
+                            "ScannedLocation": "Pune_Sudhwadi_GW (Maharashtra)",
+                            "Instructions": "Bag Received at Facility",
+                            "StatusCode": "X-ILL1F"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-11T03:24:13.198000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-11T03:24:13.198000",
+                            "ScannedLocation": "Pune_Sudhwadi_GW (Maharashtra)",
+                            "Instructions": "Shipment Received at Facility",
+                            "StatusCode": "X-IBD3F"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-11T03:24:15.033000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-11T03:24:15.033000",
+                            "ScannedLocation": "Pune_Sudhwadi_GW (Maharashtra)",
+                            "Instructions": "System weight captured",
+                            "StatusCode": "X-DWS"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-11T06:32:09.012000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-11T06:32:09.012000",
+                            "ScannedLocation": "Pune_Sudhwadi_GW (Maharashtra)",
+                            "Instructions": "Added to Bag",
+                            "StatusCode": "X-DBL1F"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-11T09:53:17.170000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-11T09:53:17.170000",
+                            "ScannedLocation": "Pune_Sudhwadi_GW (Maharashtra)",
+                            "Instructions": "Connected to destination",
+                            "StatusCode": "X-DLL2F"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-11T11:51:28.504000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-11T11:51:28.504000",
+                            "ScannedLocation": "Pune_Chimbali_H (Maharashtra)",
+                            "Instructions": "Vehicle Arrived",
+                            "StatusCode": "X-ILL2F"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-11T12:28:19.633000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-11T12:28:19.633000",
+                            "ScannedLocation": "Pune_Chimbali_H (Maharashtra)",
+                            "Instructions": "Bag Received at Facility",
+                            "StatusCode": "X-ILL1F"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-11T13:19:26.821000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-11T13:19:26.821000",
+                            "ScannedLocation": "Pune_Chimbali_H (Maharashtra)",
+                            "Instructions": "Connected to destination",
+                            "StatusCode": "X-DLL2F"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-13T01:09:09.114000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-13T01:09:09.114000",
+                            "ScannedLocation": "Nagpur_Khapari_GW (Maharashtra)",
+                            "Instructions": "Vehicle Arrived",
+                            "StatusCode": "X-ILL2F"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-13T05:13:02.911000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-13T05:13:02.911000",
+                            "ScannedLocation": "Nagpur_Khapari_GW (Maharashtra)",
+                            "Instructions": "Bag Received at Facility",
+                            "StatusCode": "X-ILL1F"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-13T11:27:35.023000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-13T11:27:35.023000",
+                            "ScannedLocation": "Nagpur_Khapari_GW (Maharashtra)",
+                            "Instructions": "Connected to destination",
+                            "StatusCode": "X-DLL2F"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-14T14:06:04.792000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-14T14:06:04.792000",
+                            "ScannedLocation": "Raipur_Guma_H (Chhattisgarh)",
+                            "Instructions": "Vehicle Arrived",
+                            "StatusCode": "X-ILL2F"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-14T16:24:24.488000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-14T16:24:24.488000",
+                            "ScannedLocation": "Raipur_Guma_H (Chhattisgarh)",
+                            "Instructions": "Bag Received at Facility",
+                            "StatusCode": "X-ILL1F"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-15T08:31:44",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-15T08:31:44",
+                            "ScannedLocation": "Raipur_Guma_H (Chhattisgarh)",
+                            "Instructions": "Connected to destination",
+                            "StatusCode": "X-DLL2F"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-15T21:25:06.803000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-15T21:25:06.803000",
+                            "ScannedLocation": "Ambikapur_Bouripara_I (Chhattisgarh)",
+                            "Instructions": "Vehicle Arrived",
+                            "StatusCode": "X-ILL2F"
+                        }
+                    },
+                    {
+                        "ScanDetail": {
+                            "ScanDateTime": "2022-10-15T23:31:17.285000",
+                            "ScanType": "UD",
+                            "Scan": "In Transit",
+                            "StatusDateTime": "2022-10-15T23:31:17.285000",
+                            "ScannedLocation": "Ambikapur_Bouripara_I (Chhattisgarh)",
+                            "Instructions": "Bag Received at Facility",
+                            "StatusCode": "X-ILL1F"
+                        }
+                    }
+                ],
+                "Status": {
+                    "Status": "In Transit",
+                    "StatusLocation": "Ambikapur_Bouripara_I (Chhattisgarh)",
+                    "StatusDateTime": "2022-10-15T23:31:17.285000",
+                    "RecievedBy": "",
+                    "Instructions": "Bag Received at Facility",
+                    "StatusType": "UD",
+                    "StatusCode": "X-ILL1F"
+                },
+                "InvoiceAmount": 900,
+                "ChargedWeight": null,
+                "SenderName": "SF TRADENITI 0083968",
+                "AWB": "10483710001724",
+                "DispatchCount": 0,
+                "OrderType": "Pre-paid",
+                "ReturnedDate": null,
+                "ExpectedDeliveryDate": "2022-10-17T00:00:00",
+                "FirstAttemptDate": null,
+                "ReverseInTransit": false,
+                "Quantity": "",
+                "Origin": "Pune_Kondhwa_C (Maharashtra)",
+                "Consignee": { "City": "Sarbhoka", "Name": "PIYAR SAI PAIKRA", "Country": "India", "Address2": [], "Address3": "", "PinCode": 497451, "State": "Chhattisgarh", "Telephone2": "", "Telephone1": "", "Address1": [] },
+                "ReferenceNo": "12811",
+                "OutDestinationDate": "2022-10-10T21:56:59.198000",
+                "CODAmount": 0,
+                "OriginRecieveDate": "2022-10-10T21:56:59.114000"
+            }
+        }
+    ]
+}
+]
